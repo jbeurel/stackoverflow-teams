@@ -1,0 +1,7 @@
+<div class="row marketing">
+    <ul>
+        <li ng-repeat="user in users.items">
+            <a ng-href="{{ user.link }}"><img ng-src="{{ user.profile_image }}"/>[{{ user.reputation }}] {{ user.display_name }}</a>
+        </li>
+    </ul>
+</div>
